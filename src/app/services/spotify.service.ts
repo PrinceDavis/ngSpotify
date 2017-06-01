@@ -8,7 +8,7 @@ export class SpotifyService {
   constructor(private http: Http) { }
 
   searchMusic(str: string, type= 'artist'){
-    const access_token = 'BQBii1T5usbYMUhMvDje4JR6gjG55KRvbOF5eEMwITihmtodoFjWUGKopjD5ZcgmMb5MW-p5fkus5Uh9DoilKRyReOiY2Z-CgXQar-2mFSIY3_BFU6aQiobsvgg2gz7k-K4KgOMH3oikLgpswKuR9rpXnrTX';
+    const access_token = 'BQDKy-SKwtU4wpDC_VfOeshxSRInhYGuh2CfG6icAmgEt9H-N6KzHVS2ssudcp9xH8hduOCTZqcS_UTk-HkIZJ-Fr30xH22kR3jE4QvUkR1ikXYXbgwFMr1Ow67U96OeYYMCDNgEdYSGxTBxRRgOwssl-4rQ';
     const headers = new Headers();
     headers.append('Authorization', 'Bearer '+access_token);
     this.searchUrl = `https://api.spotify.com/v1/search?query=${str}&offset=0&limit=20&type=${type}&market=US`;
