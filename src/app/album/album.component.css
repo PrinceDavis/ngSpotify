@@ -1,0 +1,9 @@
+.album-img {
+  width: 185px;
+  float:left;
+}
+.album-thumb {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
